@@ -32,7 +32,7 @@ document.write(' <p class="text">Jum`at<br> 15 April 2022<table><tr><td>13 Ramad
 else if (dd==30)
 document.write(' <p class="text">Sabtu<br> 16 April 2022<table><tr><td>14 Ramadhan 1443H</td></tr></table></p><table><tr><td>Imsak</td><td> : 04:29</td></tr><tr><td>Subuh</td><td>: 04:39</td></tr> <tr><td>Dhuhur</td><td> : 11:57</td></tr><tr><td>Ashar</td><td> : 15:15</td></tr><tr><td>Maghrib</td><td> : 17:55</td></tr> <tr><td>Isya`</td><td> : 19:05</td></tr></table> ');
 else if (dd==1)
-document.write(' <p class="text">Minggu<br> 17 April 2022<table><tr><td>14 Ramadhan 1443H</td></tr></table></p><table><tr><td>Imsak</td><td> : 04:29</td></tr><tr><td>Subuh</td><td>: 04:39</td></tr> <tr><td>Dhuhur</td><td> : 11:57</td></tr><tr><td>Ashar</td><td> : 15:15</td></tr><tr><td>Maghrib</td><td> : 17:55</td></tr> <tr><td>Isya`</td><td> : 19:04</td></tr></table> ');
+document.write(' <p class="text">Minggu<br> 17 April 2022<table><tr><td>15 Ramadhan 1443H</td></tr></table></p><table><tr><td>Imsak</td><td> : 04:29</td></tr><tr><td>Subuh</td><td>: 04:39</td></tr> <tr><td>Dhuhur</td><td> : 11:57</td></tr><tr><td>Ashar</td><td> : 15:15</td></tr><tr><td>Maghrib</td><td> : 17:55</td></tr> <tr><td>Isya`</td><td> : 19:04</td></tr></table> ');
 else if (dd==2)
 document.write('  <p class="text">Senin<br> 18 April 2022<table><tr><td>16 Ramadhan 1443H</td></tr></table></p><table><tr><td>Imsak</td><td> : 04:28</td></tr><tr><td>Subuh</td><td>: 04:38</td></tr> <tr><td>Dhuhur</td><td> : 11:56</td></tr><tr><td>Ashar</td><td> : 15:15</td></tr><tr><td>Maghrib</td><td> : 17:55</td></tr> <tr><td>Isya`</td><td> : 19:04</td></tr></table> ');
 else if (dd==3)
