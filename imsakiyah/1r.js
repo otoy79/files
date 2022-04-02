@@ -2,7 +2,7 @@ var tgl1 = new Date();
 var dd = tgl1.getDate();
 
 if (dd==2)
-document.write('  <p class="text">Sabtu<br> 2 Mei 2022 <h2> Selamat Hari Raya Idul Fitri 1443H  </h2>');
+document.write('  <p class="text">Senin<br> 2 Mei 2022 <h2> 𝒮ℯ𝓁𝒶𝓂𝒶𝓉 ℋ𝒶𝓇𝒾 ℛ𝒶𝓎𝒶 ℐ𝒹𝓊𝓁 ℱ𝒾𝓉𝓇𝒾 1443ℋ  </h2>');
 else if (dd==3)
 document.write(' <p class="text">Minggu<br> 3 April 2022<table><tr><td>1 Ramadhan 1443H</td></tr></table></p></p><table><tr><td>Imsak</td><td> : 04:31</td></tr><tr><td>Subuh</td><td>: 04:41</td></tr> <tr><td>Dhuhur</td><td> : 12:00</td></tr><tr><td>Ashar</td><td> : 15:15</td></tr><tr><td>Maghrib</td><td> : 18:01</td></tr> <tr><td>Isya`</td><td> : 19:10</td></tr></table> ');
 else if (dd==4)
