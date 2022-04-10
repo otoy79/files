@@ -132,63 +132,6 @@ box-shadow:5px 5px 30px 5px green;
 table {width:100%;}
 tr td {border-bottom: 0.1px solid #ccc}
 table, p {padding-left:8px}
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-:root {
-  --white: #fcfcfc;
-  --black: #252525;
-  
-  --purple: #cf07fb;
-  --purple-gradient:  linear-gradient(to top,  #9733EE, #cf07fb); 
-  
-  /*--green: #49e691; */
-  --green: #36e77e;
-  --green-gradient: linear-gradient(to top, #061700, #49e691); 
-}
-
-body {
-  background-color: var(--#);
-  color: var(--#);
-  font-family: 'Muli', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  overflow-x: hidden;
-}
-
-h1 {
-  text-align: center;
-  margin: 2rem auto;
-}
-
-p, table {
-  background: var(--green);
-  color: var(--black);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  box-shadow: inset 0px 0px 20px rgba(0,0,0,0.3);
-  transform: translateX(400%);
-  transition: transform 0.4s ease;
-}
-
-p, table:nth-of-type(even) {
-    transform: translateX(-400%);
-}
-
-p, table.show {
-  transform: translateX(0);
-}
-
-.box h2 {
-  font-size: 36px;
-}
 
 </style>
 
@@ -400,27 +343,8 @@ const swiper = new Swiper('.swiper', {
   },
   
 }),
-
-const boxes = document.querySelectorAll('p, table');
-
-window.addEventListener('scroll', checkBoxes);
-
-checkBoxes(); // shows initial box(es) 
-
-function checkBoxes() {
-  const triggerBottom = (window.innerHeight / 5 * 4);
-  
-  boxes.forEach(box => {
-    const boxTop = box.getBoundingClientRect().top;
-    
-    if(boxTop < triggerBottom) {
-      box.classList.add('show');
-    } else {
-      box.classList.remove('show');
-    }
-  })
-}
 </script>
+
 </body>
 </html>
 
