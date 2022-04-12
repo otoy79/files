@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Imsakiyah</title>
+<title>Kalender Ramadhan</title>
 <link href="https://unpkg.com/swiper@7/swiper-bundle.min.css" rel="stylesheet">
 <style>
 :root {
@@ -10,7 +10,7 @@
 
 .body {
   
-  width: 300px;
+  width: 330px;
   margin: 0;
   padding: 0;
   display: grid;
@@ -42,7 +42,6 @@
   border-radius: 4px;
   box-shadow: 4px 2px 13px -2px rgba(0,0,0,0.75);
   position: relative;
-  cursor: pointer;
   
 }
 
@@ -87,7 +86,7 @@ img❌ {
   padding: 0px;
   background-color: #04AA6D;
   color: white;
-  position: relative;  top: 4px;
+  position: relative; top: 1px;
 box-shadow:5px 5px 30px 5px green;
  z-index:0;
 }
@@ -122,7 +121,7 @@ box-shadow:5px 5px 30px 5px green;
 }
 .text {
   text-align:center;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   margin:0;
   color: yellow;
@@ -290,6 +289,7 @@ table, p {padding-left:8px}
 </center>
 
 
+
 <script>
 function startTime() {
   const today = new Date();
@@ -342,9 +342,8 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.prev',
   },
   
-}),
+})
 </script>
-
 </body>
 </html>
 
